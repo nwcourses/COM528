@@ -53,7 +53,7 @@ public class Student
         return mark;
     }
 
-      public String getGrade() 
+    public String getGrade() 
     {
         if (mark >= 70) 
         {
