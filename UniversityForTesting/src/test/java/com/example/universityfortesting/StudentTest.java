@@ -19,6 +19,6 @@ public class StudentTest {
     public void testMark() {
         Student s = new Student("1", "Tom", "Computing");
         s.setMark(70.0);
-        assertEquals(s.getGrade(), "Fail");
+        assertEquals(s.getGrade(), "First");
     }
 }
